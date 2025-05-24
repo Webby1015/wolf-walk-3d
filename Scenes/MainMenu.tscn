@@ -1,0 +1,92 @@
+[gd_scene load_steps=7 format=3 uid="uid://bo243xsagt5mp"]
+
+[ext_resource type="Script" uid="uid://b05xex5jnvbp0" path="res://Scripts/main_menu.gd" id="1_ghw46"]
+[ext_resource type="Texture2D" uid="uid://cydnohtkyqag0" path="res://Assets/Level-background/Main_menu.jpg" id="1_tt5f1"]
+[ext_resource type="FontFile" uid="uid://dd6o246n81vep" path="res://Assets/Fonts/SuperRugged-4nBy9.ttf" id="2_853f1"]
+[ext_resource type="FontFile" uid="uid://kb47qdt1kowx" path="res://Assets/Fonts/HomeVideoBold-R90Dv.ttf" id="3_8saeu"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_853f1"]
+texture = ExtResource("1_tt5f1")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8saeu"]
+
+[node name="Control2" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ghw46")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_853f1")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -47.0
+offset_top = -189.0
+offset_right = 47.0
+offset_bottom = -166.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_853f1")
+theme_override_font_sizes/font_size = 130
+text = "WOLF WALK"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -451.0
+offset_top = 77.0
+offset_right = 451.0
+offset_bottom = 154.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 49
+
+[node name="StartButton" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8saeu")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/focus = SubResource("StyleBoxEmpty_8saeu")
+text = "Start Game"
+
+[node name="OptionsButton" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8saeu")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/focus = SubResource("StyleBoxEmpty_8saeu")
+text = "Options"
+
+[node name="QuitButton" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8saeu")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/focus = SubResource("StyleBoxEmpty_8saeu")
+text = "Quit Game"
+
+[connection signal="mouse_entered" from="HBoxContainer/StartButton" to="." method="_on_start_mouse_entered"]
+[connection signal="pressed" from="HBoxContainer/StartButton" to="." method="_on_start_pressed"]
+[connection signal="mouse_entered" from="HBoxContainer/OptionsButton" to="." method="_on_options_mouse_entered"]
+[connection signal="pressed" from="HBoxContainer/OptionsButton" to="." method="_on_options_pressed"]
+[connection signal="mouse_entered" from="HBoxContainer/QuitButton" to="." method="_on_button_3_mouse_entered"]
+[connection signal="pressed" from="HBoxContainer/QuitButton" to="." method="_on_quit_pressed"]

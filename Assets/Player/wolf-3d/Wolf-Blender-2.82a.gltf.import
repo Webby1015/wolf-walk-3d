@@ -1,0 +1,49 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://2ij5axxlvp5y"
+path="res://.godot/imported/Wolf-Blender-2.82a.gltf-fd2c901743c33981d09b1470348b7b2c.scn"
+
+[deps]
+
+source_file="res://Assets/Player/wolf-3d/Wolf-Blender-2.82a.gltf"
+dest_files=["res://.godot/imported/Wolf-Blender-2.82a.gltf-fd2c901743c33981d09b1470348b7b2c.scn"]
+
+[params]
+
+nodes/root_type="RigidBody3D"
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+_subresources={
+"nodes": {
+"PATH:Armature_0/Skeleton3D/Wolf2_fur__fella3_jpg_001_0": {
+"import/skip_import": true
+},
+"PATH:Circle": {
+"import/skip_import": true
+},
+"PATH:Sun": {
+"import/skip_import": true
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1
