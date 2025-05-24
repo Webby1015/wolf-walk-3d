@@ -5,6 +5,9 @@ func to_mainmenu()->void:
 
 func to_levelSelection()->void:
 	get_tree().change_scene_to_file("res://Scenes/LevelSelection.tscn")
+	
+func to_3dLevel()->void:
+	get_tree().change_scene_to_file("res://Scenes/level.tscn")
 
 func to_options()->void:
 	get_tree().change_scene_to_file("res://Scenes/Options.tscn")

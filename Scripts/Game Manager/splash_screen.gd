@@ -30,5 +30,5 @@ func run() -> void:
 	tween.tween_interval(out_time)
 	
 	await tween.finished
-	
+	queue_free()
 	#get_tree().change_scene_to_packed(load_scene)
