@@ -17,7 +17,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	
 	var input := Vector3.ZERO
-	input.x = Input.get_axis("right","left")
+	#input.x = Input.get_axis("right","left")
 	input.z = Input.get_axis("backward","forward")
 	
 	twist_pivot.rotate_y(twist_input)

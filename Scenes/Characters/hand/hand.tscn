@@ -1,0 +1,169 @@
+[gd_scene load_steps=7 format=3 uid="uid://c00417gavfdn"]
+
+[ext_resource type="PackedScene" uid="uid://cer2detwwuhur" path="res://Assets/Player/hand-3d/scene.gltf" id="1_tyrxk"]
+
+[sub_resource type="Curve" id="Curve_tyrxk"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tyrxk"]
+albedo_color = Color(0.667004, 0.506261, 0.402303, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4j0l6"]
+albedo_color = Color(0.515722, 0.216381, 0.15656, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_64ov5"]
+albedo_color = Color(0.427758, 0.173022, 0.121819, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rkrx5"]
+albedo_color = Color(0.427758, 0.173022, 0.121819, 1)
+
+[node name="hand" instance=ExtResource("1_tyrxk")]
+
+[node name="root" parent="Sketchfab_model" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.34119, 0, 0)
+
+[node name="Armature_19" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0143721, 0, 0)
+
+[node name="Skeleton3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/Armature_19/GLTF_created_0" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.11419, 0, 0)
+
+[node name="index-fing" type="SpringBoneSimulator3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/Armature_19/GLTF_created_0/Skeleton3D" index="0"]
+setting_count = 2
+settings/0/root_bone_name = "F1_1_12"
+settings/0/root_bone = 12
+settings/0/end_bone_name = "F1_2_11"
+settings/0/end_bone = 13
+settings/0/extend_end_bone = false
+settings/0/center_from = 0
+settings/0/individual_config = false
+settings/0/rotation_axis = 3
+settings/0/radius/value = 0.02
+settings/0/radius/damping_curve = null
+settings/0/stiffness/value = 1.0
+settings/0/stiffness/damping_curve = null
+settings/0/drag/value = 0.4
+settings/0/drag/damping_curve = null
+settings/0/gravity/value = 0.0
+settings/0/gravity/damping_curve = null
+settings/0/gravity/direction = Vector3(0, -1, 0)
+settings/0/enable_all_child_collisions = true
+settings/0/exclude_collision_count = 0
+settings/1/root_bone_name = ""
+settings/1/root_bone = -1
+settings/1/end_bone_name = ""
+settings/1/end_bone = -1
+settings/1/extend_end_bone = false
+settings/1/center_from = 0
+settings/1/individual_config = false
+settings/1/rotation_axis = 3
+settings/1/radius/value = 0.02
+settings/1/radius/damping_curve = null
+settings/1/stiffness/value = 1.0
+settings/1/stiffness/damping_curve = null
+settings/1/drag/value = 0.4
+settings/1/drag/damping_curve = null
+settings/1/gravity/value = 0.0
+settings/1/gravity/damping_curve = null
+settings/1/gravity/direction = Vector3(0, -1, 0)
+settings/1/enable_all_child_collisions = true
+settings/1/exclude_collision_count = 0
+
+[node name="middle-fing" type="SpringBoneSimulator3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/Armature_19/GLTF_created_0/Skeleton3D" index="1"]
+setting_count = 1
+settings/0/root_bone_name = "F2_1_3"
+settings/0/root_bone = 3
+settings/0/end_bone_name = "F2_2_2"
+settings/0/end_bone = 4
+settings/0/extend_end_bone = false
+settings/0/center_from = 0
+settings/0/individual_config = false
+settings/0/rotation_axis = 3
+settings/0/radius/value = 0.02
+settings/0/radius/damping_curve = null
+settings/0/stiffness/value = 1.0
+settings/0/stiffness/damping_curve = null
+settings/0/drag/value = 0.4
+settings/0/drag/damping_curve = null
+settings/0/gravity/value = 0.0
+settings/0/gravity/damping_curve = null
+settings/0/gravity/direction = Vector3(0, -1, 0)
+settings/0/enable_all_child_collisions = true
+settings/0/exclude_collision_count = 0
+
+[node name="ring-fing" type="SpringBoneSimulator3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/Armature_19/GLTF_created_0/Skeleton3D" index="2"]
+setting_count = 1
+settings/0/root_bone_name = "F3_1_6"
+settings/0/root_bone = 6
+settings/0/end_bone_name = "F3_2_5"
+settings/0/end_bone = 7
+settings/0/extend_end_bone = false
+settings/0/center_from = 0
+settings/0/individual_config = false
+settings/0/rotation_axis = 3
+settings/0/radius/value = 0.02
+settings/0/radius/damping_curve = null
+settings/0/stiffness/value = 1.0
+settings/0/stiffness/damping_curve = null
+settings/0/drag/value = 0.4
+settings/0/drag/damping_curve = null
+settings/0/gravity/value = 0.0
+settings/0/gravity/damping_curve = null
+settings/0/gravity/direction = Vector3(0, -1, 0)
+settings/0/enable_all_child_collisions = true
+settings/0/exclude_collision_count = 0
+
+[node name="little-fing" type="SpringBoneSimulator3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/Armature_19/GLTF_created_0/Skeleton3D" index="3"]
+setting_count = 1
+settings/0/root_bone_name = "F4_1_9"
+settings/0/root_bone = 9
+settings/0/end_bone_name = "F4_2_8"
+settings/0/end_bone = 10
+settings/0/extend_end_bone = false
+settings/0/center_from = 0
+settings/0/individual_config = false
+settings/0/rotation_axis = 3
+settings/0/radius/value = 0.02
+settings/0/radius/damping_curve = null
+settings/0/stiffness/value = 1.0
+settings/0/stiffness/damping_curve = null
+settings/0/drag/value = 0.4
+settings/0/drag/damping_curve = null
+settings/0/gravity/value = 0.0
+settings/0/gravity/damping_curve = null
+settings/0/gravity/direction = Vector3(0, -1, 0)
+settings/0/enable_all_child_collisions = true
+settings/0/exclude_collision_count = 0
+
+[node name="thumb" type="SpringBoneSimulator3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/Armature_19/GLTF_created_0/Skeleton3D" index="4"]
+setting_count = 1
+settings/0/root_bone_name = "TH_1_15"
+settings/0/root_bone = 15
+settings/0/end_bone_name = "TH_2_14"
+settings/0/end_bone = 16
+settings/0/extend_end_bone = false
+settings/0/center_from = 0
+settings/0/individual_config = false
+settings/0/rotation_axis = 3
+settings/0/radius/value = 0.02
+settings/0/radius/damping_curve = null
+settings/0/stiffness/value = 1.0
+settings/0/stiffness/damping_curve = null
+settings/0/drag/value = 0.4
+settings/0/drag/damping_curve = null
+settings/0/gravity/value = 0.1
+settings/0/gravity/damping_curve = SubResource("Curve_tyrxk")
+settings/0/gravity/direction = Vector3(0, -1, 0)
+settings/0/enable_all_child_collisions = true
+settings/0/exclude_collision_count = 0
+
+[node name="Object_9" parent="Sketchfab_model/root/GLTF_SceneRootNode/Armature_19/GLTF_created_0/Skeleton3D" index="5"]
+surface_material_override/0 = SubResource("StandardMaterial3D_tyrxk")
+
+[node name="Object_10" parent="Sketchfab_model/root/GLTF_SceneRootNode/Armature_19/GLTF_created_0/Skeleton3D" index="6"]
+surface_material_override/0 = SubResource("StandardMaterial3D_4j0l6")
+
+[node name="Object_11" parent="Sketchfab_model/root/GLTF_SceneRootNode/Armature_19/GLTF_created_0/Skeleton3D" index="7"]
+surface_material_override/0 = SubResource("StandardMaterial3D_64ov5")
+
+[node name="Object_12" parent="Sketchfab_model/root/GLTF_SceneRootNode/Armature_19/GLTF_created_0/Skeleton3D" index="8"]
+surface_material_override/0 = SubResource("StandardMaterial3D_rkrx5")

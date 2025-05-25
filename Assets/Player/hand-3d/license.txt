@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rigged Sculpted Hand
+* source:	https://sketchfab.com/3d-models/rigged-sculpted-hand-ff5ea8acd9374c249f8a53f4cc225f39
+* author:	TheDre (https://sketchfab.com/AndreaG.)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rigged Sculpted Hand" (https://sketchfab.com/3d-models/rigged-sculpted-hand-ff5ea8acd9374c249f8a53f4cc225f39) by TheDre (https://sketchfab.com/AndreaG.) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
