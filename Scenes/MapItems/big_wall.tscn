@@ -1,0 +1,49 @@
+[gd_scene load_steps=3 format=3 uid="uid://r5q4hdf8sv8g"]
+
+[ext_resource type="PackedScene" uid="uid://evq1qkuid3tv" path="res://Scenes/MapItems/walls.tscn" id="1_naq7o"]
+[ext_resource type="PackedScene" uid="uid://bf84fywsgwo2i" path="res://Scenes/MapItems/wall.tscn" id="2_tp6nk"]
+
+[node name="big_wall" type="Node3D"]
+
+[node name="walls" parent="." instance=ExtResource("1_naq7o")]
+
+[node name="walls2" parent="." instance=ExtResource("1_naq7o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 72.2804, 0, 0)
+
+[node name="walls11" parent="." instance=ExtResource("1_naq7o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.2951, 0, 0)
+
+[node name="wall5" parent="." instance=ExtResource("2_tp6nk")]
+transform = Transform3D(1, 0, 0, 0, 1.19249e-08, 1, 0, -1, 1.19249e-08, 96.367, 0, 0)
+skeleton = NodePath("../walls11")
+
+[node name="wall6" parent="." instance=ExtResource("2_tp6nk")]
+transform = Transform3D(1, 0, 0, 0, 1.19249e-08, 1, 0, -1, 1.19249e-08, 98.3681, 0, 0)
+skeleton = NodePath("../walls11")
+
+[node name="walls12" parent="." instance=ExtResource("1_naq7o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 88.3268, 0, 0)
+
+[node name="walls3" parent="." instance=ExtResource("1_naq7o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 64.2446, 0, 0)
+
+[node name="walls4" parent="." instance=ExtResource("1_naq7o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 56.2074, 0, 0)
+
+[node name="walls5" parent="." instance=ExtResource("1_naq7o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.1496, 0, 0)
+
+[node name="walls6" parent="." instance=ExtResource("1_naq7o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.1165, 0, 0)
+
+[node name="walls7" parent="." instance=ExtResource("1_naq7o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.0733, 0, 0)
+
+[node name="walls8" parent="." instance=ExtResource("1_naq7o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.0237, 0, 0)
+
+[node name="walls9" parent="." instance=ExtResource("1_naq7o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.0336, 0, 0)
+
+[node name="walls10" parent="." instance=ExtResource("1_naq7o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.02679, 0, 0)

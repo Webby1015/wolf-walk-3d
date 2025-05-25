@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://evq1qkuid3tv"]
+
+[ext_resource type="PackedScene" uid="uid://bf84fywsgwo2i" path="res://Scenes/MapItems/wall.tscn" id="1_gei70"]
+
+[node name="walls" type="Node3D"]
+
+[node name="wall" parent="." instance=ExtResource("1_gei70")]
+
+[node name="wall2" parent="." instance=ExtResource("1_gei70")]
+transform = Transform3D(1, 0, 0, 0, 1.19249e-08, 1, 0, -1, 1.19249e-08, 6.01336, 0, 0)
+
+[node name="wall3" parent="." instance=ExtResource("1_gei70")]
+transform = Transform3D(1, 0, 0, 0, 1.19249e-08, 1, 0, -1, 1.19249e-08, 4.00991, 0, 0)
+
+[node name="wall4" parent="." instance=ExtResource("1_gei70")]
+transform = Transform3D(1, 0, 0, 0, 1.19249e-08, 1, 0, -1, 1.19249e-08, 2.00531, 0, 0)
