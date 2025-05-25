@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://datsip0yvo4eu"]
+
+[ext_resource type="Script" uid="uid://bxy2hojit56q8" path="res://Scripts/wolf_player.gd" id="1_3rr4v"]
+[ext_resource type="PackedScene" uid="uid://dygafwdufwwts" path="res://Scenes/pause_menu.tscn" id="2_arokj"]
+[ext_resource type="PackedScene" uid="uid://bwv2o6fpgxw47" path="res://Scenes/Characters/Wolf-Player/wolf_model.tscn" id="2_jxupg"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_arokj"]
+radius = 0.229268
+height = 0.562022
+
+[node name="wolfPlayer" type="RigidBody3D"]
+lock_rotation = true
+linear_damp = 5.0
+script = ExtResource("1_3rr4v")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00088501, 0.274261, 0)
+shape = SubResource("CapsuleShape3D_arokj")
+
+[node name="TwistPivot" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+
+[node name="Wolf-model" parent="TwistPivot" instance=ExtResource("2_jxupg")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, -0.472832, 0)
+
+[node name="PitchPivot" type="Node3D" parent="TwistPivot"]
+transform = Transform3D(1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, 0, 0, 0)
+
+[node name="Camera3D" type="Camera3D" parent="TwistPivot/PitchPivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+
+[node name="PauseMenu" parent="TwistPivot/PitchPivot/Camera3D" instance=ExtResource("2_arokj")]
+visible = false

@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://c5nsrybkg1afh"]
+[gd_scene load_steps=9 format=3 uid="uid://c5nsrybkg1afh"]
 
 [ext_resource type="Script" uid="uid://cc177tnqjpp7f" path="res://Scripts/level.gd" id="1_tumq0"]
-[ext_resource type="PackedScene" uid="uid://dygafwdufwwts" path="res://Scenes/pause_menu.tscn" id="2_k5f4k"]
+[ext_resource type="PackedScene" uid="uid://uf25u7p4cgfk" path="res://Assets/Map-entities/vegitation.tscn" id="2_6phgx"]
+[ext_resource type="PackedScene" uid="uid://datsip0yvo4eu" path="res://Scenes/Characters/Wolf-Player/wolf_player.tscn" id="3_6phgx"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_51e2h"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -19,6 +20,9 @@ glow_enabled = true
 [sub_resource type="PlaneMesh" id="PlaneMesh_51e2h"]
 size = Vector2(30, 30)
 
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_6phgx"]
+data = PackedVector3Array(15, 0, 15, -15, 0, 15, 15, 0, -15, -15, 0, 15, -15, 0, -15, 15, 0, -15)
+
 [node name="Level" type="Node3D"]
 script = ExtResource("1_tumq0")
 
@@ -26,14 +30,19 @@ script = ExtResource("1_tumq0")
 environment = SubResource("Environment_k5f4k")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 10, 10, -10)
 shadow_enabled = true
-
-[node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
-
-[node name="PauseMenu" parent="Camera3D" instance=ExtResource("2_k5f4k")]
-visible = false
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("PlaneMesh_51e2h")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_6phgx")
+
+[node name="shapespark-low-poly-plants-kit" parent="." instance=ExtResource("2_6phgx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.4408, 0, -11.5319)
+
+[node name="wolfPlayer" parent="." instance=ExtResource("3_6phgx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0.097774, 0)

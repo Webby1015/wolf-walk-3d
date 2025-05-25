@@ -9,15 +9,4 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if Input.is_action_just_pressed("Pause"):
-		pausemenu()
-
-func pausemenu() -> void:
-	if paused : 
-		pause_menu.hide()
-		Engine.time_scale = 1
-	else : 
-		pause_menu.show()
-		Engine.time_scale = 0
-		
-	paused = !paused
+	pass

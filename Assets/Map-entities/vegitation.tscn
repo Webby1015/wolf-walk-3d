@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://uf25u7p4cgfk"]
+
+[ext_resource type="PackedScene" uid="uid://bqcmwa1jelp36" path="res://Assets/Map-entities/shapespark-low-poly-plants-kit.gltf" id="1_q0wv8"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_q0wv8"]
+radius = 0.156738
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_cip7k"]
+radius = 0.172852
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_1s6cj"]
+radius = 0.131348
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_qnebf"]
+radius = 0.102051
+
+[node name="shapespark-low-poly-plants-kit" instance=ExtResource("1_q0wv8")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.41802, 1.00372, 2.74864)
+shape = SubResource("CylinderShape3D_q0wv8")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.80013, 1.04851, 9.25997)
+shape = SubResource("CylinderShape3D_cip7k")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.62955, 0.962654, 15.8792)
+shape = SubResource("CylinderShape3D_1s6cj")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.50222, 0.966237, 22.3101)
+shape = SubResource("CylinderShape3D_qnebf")
