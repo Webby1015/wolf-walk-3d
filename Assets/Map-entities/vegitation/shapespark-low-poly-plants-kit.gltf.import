@@ -1,0 +1,280 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://bqcmwa1jelp36"
+path="res://.godot/imported/shapespark-low-poly-plants-kit.gltf-6d71c86d50bbda73dff884d5bf563095.scn"
+
+[deps]
+
+source_file="res://Assets/Map-entities/vegitation/shapespark-low-poly-plants-kit.gltf"
+dest_files=["res://.godot/imported/shapespark-low-poly-plants-kit.gltf-6d71c86d50bbda73dff884d5bf563095.scn"]
+
+[params]
+
+nodes/root_type="MultiMeshInstance3D"
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+_subresources={
+"meshes": {
+"shapespark-low-poly-plants-kit_BezierCurve_023": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/tree5.res"
+},
+"shapespark-low-poly-plants-kit_BezierCurve_024": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/tree6.res"
+},
+"shapespark-low-poly-plants-kit_BezierCurve_025": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/tree7.res"
+},
+"shapespark-low-poly-plants-kit_BezierCurve_026": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/tree8.res"
+},
+"shapespark-low-poly-plants-kit_BezierCurve_027": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "uid://lsgjunbh2hfa"
+},
+"shapespark-low-poly-plants-kit_BezierCurve_028": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/tree9.res"
+},
+"shapespark-low-poly-plants-kit_BezierCurve_029": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/tree10.res"
+},
+"shapespark-low-poly-plants-kit_BezierCurve_030": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/tree11.res"
+},
+"shapespark-low-poly-plants-kit_BezierCurve_033": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/tree1.res"
+},
+"shapespark-low-poly-plants-kit_BezierCurve_034": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/tree12.res"
+},
+"shapespark-low-poly-plants-kit_BezierCurve_036": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/tree2.res"
+},
+"shapespark-low-poly-plants-kit_BezierCurve_038": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/tree3.res"
+},
+"shapespark-low-poly-plants-kit_BezierCurve_040": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/tree4.res"
+},
+"shapespark-low-poly-plants-kit_Plane_158": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/bush4.res"
+},
+"shapespark-low-poly-plants-kit_Plane_163": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/flower1.res"
+},
+"shapespark-low-poly-plants-kit_Plane_164": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/flower3.res"
+},
+"shapespark-low-poly-plants-kit_Plane_167": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/flower4.res"
+},
+"shapespark-low-poly-plants-kit_Plane_178": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/bush2.res"
+},
+"shapespark-low-poly-plants-kit_Plane_182": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/bush3.res"
+},
+"shapespark-low-poly-plants-kit_Plane_196": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/bush1.res"
+},
+"shapespark-low-poly-plants-kit_Plane_202": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/grass1.res"
+},
+"shapespark-low-poly-plants-kit_Plane_204": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/grass2.res"
+},
+"shapespark-low-poly-plants-kit_Plane_205": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/flower2.res"
+},
+"shapespark-low-poly-plants-kit_Plane_209": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/grass3.res"
+},
+"shapespark-low-poly-plants-kit_Plane_575": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/clover1.res"
+},
+"shapespark-low-poly-plants-kit_Plane_576": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/clover2.res"
+},
+"shapespark-low-poly-plants-kit_Plane_577": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/clover3.res"
+},
+"shapespark-low-poly-plants-kit_Plane_578": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/clover4.res"
+},
+"shapespark-low-poly-plants-kit_Plane_579": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/clover5.res"
+},
+"shapespark-low-poly-plants-kit_Plane_733": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Scenes/MapItems/hedge1.res"
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1

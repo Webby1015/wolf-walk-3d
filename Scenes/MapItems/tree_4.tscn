@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://c45wo7xvw8ox7"]
+
+[ext_resource type="ArrayMesh" uid="uid://c4d41l7e4bq2h" path="res://Scenes/MapItems/tree4.res" id="1_127yt"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_127yt"]
+radius = 0.0932617
+
+[node name="tree4" type="MeshInstance3D"]
+mesh = ExtResource("1_127yt")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.991366, -0.0192095)
+shape = SubResource("CylinderShape3D_127yt")
